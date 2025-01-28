@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>COLOUR CHANGER</title>
+</head>
+
+<body>
+    <div id="colour-switcher">
+        <span class="btn" id="white" onclick="changeBG('#ffffff')"></span>
+        <span class="btn" id="aqua" onclick="changeBG('#7fffd4')"></span>
+        <span class="btn" id="violet" onclick="changeBG('#ce9aff')"></span>
+        <span class="btn" id="black" onclick="changeBG('#000000')"></span>
+    </div>
+
+
+
+    <h1 class="text" style="text-align: center;text-decoration: underline;">ABOUT ME</h1>
+
+    <div class="image-container">
+        <img src="https://www.themarketingsage.com/wp-content/uploads/2015/08/about-me-leon-severan-we-buy-houses.jpg"
+            alt="" class="" width="400" height="400">
+    </div>
+    <style>
+        .image-container {
+            display: flex;
+            justify-content: center;
+
+            /* Horizontally center */
+        }
+
+        #colour-switcher {
+            text-align: right;
+        }
+
+        .btn {
+            width: 20px;
+            height: 20px;
+            display: inline-block;
+            border: solid goldenrod 3px;
+            border-radius: 50%;
+            cursor: pointer;
+        }
+
+        #white {
+            background-color: white;
+        }
+
+        #aqua {
+            background-color: aquamarine;
+        }
+
+        #violet {
+            background-color: #ce9aff;
+        }
+
+        #black {
+            background-color: black;
+        }
+    </style>
+    <p class="text">
+        "I'm Nikhil Kumar, a highly motivated third-year BCA student at GL Bajaj Institute of Management in Greater
+        Noida. I come from Araria district in Bihar, where I developed a strong work ethic and a passion for learning.
+
+        My academic journey has been marked by consistent effort, resulting in a commendable overall score of 70%. I'm
+        driven by a strong desire to build a successful career as a software engineer and am constantly seeking
+        opportunities to expand my technical knowledge and skills.
+
+        I'm eager to contribute my skills and dedication to a challenging and rewarding role in the IT industry."
+    </p>
+    <script src="script.js"></script>
+</body>
+
+</html>
